@@ -1,0 +1,29 @@
+body,
+html {
+  font-family: Roboto,Helvetica,sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto;
+  font-smooth: auto;
+  height: 100%
+}
+
+body {
+  position: relative;
+}
+
+.hex-container {
+  bottom: 20px;
+  color: #fff;
+  font-size: 96px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .hex-container {
+    font-size: 64px;
+  }
+}
